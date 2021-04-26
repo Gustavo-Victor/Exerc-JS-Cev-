@@ -1,0 +1,46 @@
+@charset 'utf8';
+
+/*corpo*/
+body{
+    background-color:dodgerblue;
+    font: normal 15pt 'Arial', sans-serif;
+}
+
+/*cabeçalho*/
+header{
+    color:white;
+    text-align:center;
+}
+
+/*sessão*/
+section{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px; 
+    margin:auto; 
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    width: 500px;
+}
+
+/*divs*/
+div#res{
+    text-align: left;
+}
+
+div#form{
+    text-align: left;
+}
+
+/*rodapé*/
+footer{
+    color:white;
+    text-align:center;
+    font-style:italic;
+}
+
+input{
+    display:block;
+    outline: none;
+    margin: 0 0 10px 0;
+}

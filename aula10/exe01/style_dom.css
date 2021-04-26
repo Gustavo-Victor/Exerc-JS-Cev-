@@ -1,0 +1,17 @@
+/*RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/*DIV VERDE*/
+#area{
+    background-color:lime;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font: normal 1.3rem 'Arial', sans-serif;
+}

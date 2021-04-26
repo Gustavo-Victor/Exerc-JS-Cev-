@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabuada</title>
+        <link rel="stylesheet" href="exe02.css" type="text/css">
+    </head>
+    <body>
+        
+        <!--Cabeçalho-->
+        <header>
+            <h1>Tabuada</h1>
+        </header>
+        
+        <!--Conteúdo pricipal-->
+        <section>
+            <div id="form">
+                <label for="numero">Número: </label>
+                <input type="number" name="numero" id="numero">
+                <input type="submit" value="Gerar tabuada" id="tabuada" name="tabuada" onClick="Tabuada()"/>
+            </div>
+
+            <div id="tabuada">
+                <select name="tabuada" id="tab" size="10"></select>
+            </div>
+            
+        </section>
+
+        <!--Rodapé-->
+        <footer>
+            <p>&copy; Curso em Vídeo</p>
+        </footer>
+
+        <!--Chamar JS-->
+        <script src="exe02.js" type="text/javascript"></script>
+
+    </body>
+</html>

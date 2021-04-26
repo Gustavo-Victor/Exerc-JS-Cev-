@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body{background-color:darkcyan; color:white; font:normal 16pt 'Arial'; }
+    </style>
+
+</head>
+<body>
+    <h1>Iniciando estudos em DOM</h1>
+    <p>Aqui vai o resultdo</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div class="rasengan" >Clique em mim</div>
+
+    <script>
+        //teste marca ou tag
+        var p1 = window.document.getElementsByTagName("p")[1]
+        var corpo = window.document.body
+        p1.style.color = 'blue'
+        p1.style.fontFamily = 'Times New Roman'
+        window.document.write(p1.innerHTML);
+        corpo.style.background = 'black'
+        
+        //teste id
+        //var d = window.document.getElementById("msg").style.background = 'green'
+        //d.innerText = 'Estou aguardando...'
+
+        //teste nome
+        //var n = window.document.getElementsByName("rasengan")
+        //n.innerHTML = 'Olá'
+        
+        //teste classe
+        //var v = window.document.getElementsByClassName("rasengan").style.fontFamily = 'Georgia'
+        
+        //teste seletor 
+        var d = window.document.querySelector("div.rasengan")
+        d.style.color = 'blue'
+        d.style.background = 'lightblue'
+        d.style.fontFamily = 'Georgia'
+    
+
+        //window.document.writeln(window.document.URL);
+        //window.document.writeln(window.navigator.appName);
+        //window.document.writeln(window.document.charset);
+
+
+    </script>
+    
+</body>
+</html>

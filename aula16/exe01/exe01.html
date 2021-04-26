@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analisador de números</title>
+        <link rel="stylesheet" href="exe01.css" type="text/css">
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <h1>Analisador de números</h1>
+        </header>
+        
+        <!--Conteúdo pricipal-->
+        <section>
+            <!--Div 1-->
+            <div>
+                <!--Adicionar Número-->
+            <label for="numero">Número entre 1 e 100:</label>
+            <input type="number" id="numero" name="numero" required="required" >
+            <input type="submit" value="Adicionar" name="adicionar" onclick="Adicionar()">  
+                
+            <!--Vetor de números-->
+                <select name="vetor" id="vetor" size="10">                
+                </select> <br/>
+                <input type="submit" value="Finalizar" id="finalizar" onclick="Finalizar()" >
+            </div>
+            
+            <!--Resultado-->
+            <div id="res"></div>
+        </section>
+
+        <!--Rodapé-->
+        <footer>
+            <p>&copy; Curso em Vídeo</p>
+        </footer>
+
+        <!--Chamar JS-->
+        <script src="exe01.js" type="text/javascript"></script>
+    </body>
+</html>

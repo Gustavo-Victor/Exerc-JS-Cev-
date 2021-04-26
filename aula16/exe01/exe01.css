@@ -1,0 +1,32 @@
+@charset 'utf8';
+
+body{
+    background-color:dodgerblue;
+    font:normal 15pt 'Arial';
+}
+
+header{
+    color:white;
+    text-align:center;
+}
+
+section{
+    background-color: white;
+    text-align: left; 
+    padding:15px; 
+    border-radius:10px; 
+    margin:auto; 
+    box-shadow:5px 5px 10px rgba(0,0,0,0.5); 
+    width:500px;
+}
+
+#v{
+    margin:20px 0 0 20px;
+}
+
+footer{color:white; 
+    text-align:center; 
+    font-style:italic;
+}
+
+select {width: 200px;}

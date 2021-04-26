@@ -1,0 +1,43 @@
+body{
+    font:normal 15pt 'Arial';
+    background-color: dodgerblue;
+}
+
+header{
+    color:white; 
+    text-align:center; 
+}
+
+section{
+    background-color:white; 
+    padding:20px; 
+    border-radius:15px; 
+    margin:auto; 
+    width:500px;
+}
+
+div#resultado{
+    text-align: center;
+}
+
+#res{
+    text-align: center;
+}
+
+input[type='submit']{
+    margin-top:5px; 
+    height:30px; 
+    width:100px; 
+    background-color: lightgrey; 
+    cursor:pointer;
+}
+
+footer{color:white; 
+    text-align:center; 
+    padding:10px;
+}
+
+img{width:300px; 
+    height:auto; 
+    align-content: center;
+}
